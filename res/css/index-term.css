@@ -79,6 +79,9 @@
 		font-size: 14px;
 		font-family: 'Ubuntu Mono', sans-serif;
 	}
+  .window .term a{
+    color:#3366BB
+  }
 	@-webkit-keyframes fall{1%{opacity:1;}49%{opacity:1;}50%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}
 	   @-moz-keyframes fall{1%{opacity:1;}49%{opacity:1;}50%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}
 		 @-o-keyframes fall{1%{opacity:1;}49%{opacity:1;}50%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}
