@@ -2,6 +2,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:700" rel="stylesheet">
 <link href="res/css/index-term.css" rel="stylesheet">
+<script src="/res/js/index.js"></script>
 <style>
   body{
     /* www.w3schools.com/css/css3_gradients.asp--> */
@@ -35,6 +36,8 @@
 
 
 </style>
+
+
 </head>
 <body>
   <div class="container">
@@ -71,34 +74,15 @@
 
       </div>
     </div>
-    <div class="terminal">
-      <div class='window'>
-    		<div class='head'>
-    			<a href="#" class='btn'>&#10005;</a>
-    			<a href="#" class='btn stnd'>&#9472;</a>
-    			<a href="#" class='btn stnd max'>&#9723;</a>
-    			<span>ryanhausen@research:~</span>
-    		</div>
-    		<div class='term'>
-          ryanhausen@research:~$ ls --clickable<br/>
-          <ul>
-            <li>
-              <a href="https://ryanhausen.github.io/galaxy-classification/">
-                Morphological Galaxy Classification Using Deep Learning
-              </a>
-            </li>
-            <li>
-              <a href="https://ryanhausen.github.io/nn-ideas/">
-                Experimenting with Neural Nets
-              </a>
-            </li>
-          </ul>
-          click a link to continue...
-    			<div class='cursor'>&#9610;</div>
-    			<br/>
-    		</div>
-      </div>
-	</div>
+
+    <div id="term-container">
+    </div>
+
+    <script>
+      document.getElementById("term-container").innerHTML = terminalHTML("research", terminalResearch());
+    </script>
+
+
 
 
 
