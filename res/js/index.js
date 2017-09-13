@@ -36,3 +36,17 @@ function terminalResearch(){
 
   return [a1, a2];
 }
+
+function terminalAboutMe(){
+  var a1 = "<p>PhD student in Computer Science</p>\n";
+  var a2 = "<p>Working on Neural Networks and Deep Learning</p>\n";
+  var a3 = "<p>Click the icons to the left to lean about my teaching and research</p>\n";
+
+  return [a1, a2, a3];
+}
+
+function terminalTeaching(){
+  var a1 = "<a href=''>CMPS11</a>";
+
+  return [a1];
+}

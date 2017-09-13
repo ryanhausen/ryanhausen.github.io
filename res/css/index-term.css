@@ -10,6 +10,11 @@
 		background:    -moz-linear-gradient(45deg, #260e1e 0%,#f57453 100%);
 		background:      -o-linear-gradient(45deg, #260e1e 0%,#f57453 100%);
 	}
+  .sidebar input{
+    margin-bottom: 10%;
+  }
+
+
 	.btn{
 		background: -webkit-linear-gradient(top, #f79477 0%,#d94c1b 100%);
 		background:    -moz-linear-gradient(top, #f79477 0%,#d94c1b 100%);
@@ -89,8 +94,8 @@
     list-style-type: lower-roman;
   }
 	@-webkit-keyframes fall{1%{opacity:1;}49%{opacity:1;}50%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}
-	   @-moz-keyframes fall{1%{opacity:1;}49%{opacity:1;}50%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}
-		 @-o-keyframes fall{1%{opacity:1;}49%{opacity:1;}50%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}
+	@-moz-keyframes fall{1%{opacity:1;}49%{opacity:1;}50%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}
+	@-o-keyframes fall{1%{opacity:1;}49%{opacity:1;}50%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}
 
 	.window .term .cursor{
 
