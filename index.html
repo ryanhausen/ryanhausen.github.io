@@ -94,25 +94,26 @@
       document.getElementById("term-container").innerHTML = terminalHTML("about", terminalAboutMe());
 
       $(document).ready(function(){
+        var effect = "puff";
         $("#research").click(function() {
-            $('#term-container').toggle("fold", 1000, function(){
+            $('#term-container').toggle(effect, 1000, function(){
               document.getElementById("term-container").innerHTML = terminalHTML("research", terminalResearch());
             });
-            $('#term-container').toggle("fold", 1000);
+            $('#term-container').toggle(effect, 1000);
         });
 
         $("#teaching").click(function() {
-            $('#term-container').toggle("fold", 1000, function(){
+            $('#term-container').toggle(effect, 1000, function(){
               document.getElementById("term-container").innerHTML = terminalHTML("teaching", terminalTeaching());
             });
-            $('#term-container').toggle("fold", 1000);
+            $('#term-container').toggle(effect, 1000);
         });
 
         $("#about").click(function() {
-            $('#term-container').toggle("fold", 1000, function(){
+            $('#term-container').toggle(effect, 1000, function(){
               document.getElementById("term-container").innerHTML = terminalHTML("about", terminalAboutMe());
             });
-            $('#term-container').toggle("fold", 1000);
+            $('#term-container').toggle(effect, 1000);
         });
       });
     </script>
