@@ -41,7 +41,7 @@ function terminalResearch(){
 function terminalAboutMe(){
   var a1 = "<p>PhD student in Computer Science</p>\n";
   var a2 = "<p>Working on Neural Networks and Deep Learning</p>\n";
-  var a3 = "<p>Click the icons to the left to lean about my teaching and research</p>\n";
+  var a3 = "<p>Click the icons to the left to learn about my teaching and research, and to contact me</p>\n";
 
   return [a1, a2, a3];
 }
