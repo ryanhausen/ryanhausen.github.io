@@ -9,6 +9,7 @@ function terminalHTML(title, items){
   terminal += "<span>ryanhausen@" + title + ":~</span>";
   terminal += close_div;
   terminal += "<div class='term'>\n";
+  title = "<span style='color:yellow'>"+ title + "</span>";
   terminal += "ryanhausen@" + title + ":~$ ls<br/>\n";
   terminal += "<ul>\n";
 
@@ -26,11 +27,11 @@ function terminalHTML(title, items){
 }
 
 function terminalResearch(){
-  var a1 = "<a href='https://ryanhausen.github.io/galaxy-classification/'>\n";
+  var a1 = "<a href='https://ryanhausen.github.io/galaxy-classification/' target='_blank'>\n";
   a1 += "Morphological Galaxy Classification Using Deep Learning\n";
   a1 += "</a>\n";
 
-  var a2 = "<a href='https://ryanhausen.github.io/nn-ideas/'>\n";
+  var a2 = "<a href='https://ryanhausen.github.io/nn-ideas/' target='_blank'>\n";
   a2 += "Experimenting with Neural Nets\n";
   a2 += "</a>\n";
 
@@ -46,7 +47,7 @@ function terminalAboutMe(){
 }
 
 function terminalTeaching(){
-  var a1 = "<a href=''>CMPS11</a>";
+  var a1 = "<a href='' target='_blank'>CMPS11</a>";
 
   return [a1];
 }
