@@ -23,6 +23,8 @@
       width:auto;
       min-width: 500px;
     }
+  .sidebar img{
+    margin-top: 10%;
   }
 
 	.btn{
