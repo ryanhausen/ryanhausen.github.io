@@ -47,7 +47,7 @@ function terminalAboutMe(){
 }
 
 function terminalTeaching(){
-  var a1 = "<a href='' target='_blank'>CMPS11</a>";
+  var a1 = "<a href='' target='_blank'>TA-CMPS11</a>";
 
   return [a1];
 }
