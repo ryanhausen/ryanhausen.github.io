@@ -47,7 +47,7 @@ function terminalAboutMe(){
 }
 
 function terminalTeaching(){
-  var a1 = "<a href='' target='_blank'>TA-CMPS11</a>";
+  var a1 = "<a href='https://ryanhausen.github.io/cmps11-f17/' target='_blank'>TA CMPS11 Fall 2017</a>";
 
   return [a1];
 }
